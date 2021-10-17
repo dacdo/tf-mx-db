@@ -13,3 +13,8 @@ output "private-vm-private-ip" {
   description = "Private IP Addressess of EC2 Instances"
   value       = aws_instance.private-vm.private_ip
 }
+
+output "private-vm-private-2-ip" {
+  description = "Private IP Addressess of EC2 Instances"
+  value       = aws_instance.private-vm2.private_ip
+}

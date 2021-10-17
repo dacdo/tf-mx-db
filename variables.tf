@@ -6,20 +6,25 @@ variable "key_name" {
 
 variable "public_subnet_id" {
   type    = string
-  default = "subnet-049915106dbeb2a0e"
+  default = "subnet-0112f24e95ce07725"
 }
 
 variable "private_subnet_id" {
   type    = string
-  default = "subnet-03c90ef882e50e755"
+  default = "subnet-0bedab53c6817cec0"
+}
+
+variable "private_subnet_2_id" {
+  type    = string
+  default = "subnet-064a6954866b3b454"
 }
 
 variable "aws_iam_instance_profile" {
   type    = string
-  default = "test_profile"
+  default = "s3_profile"
 }
 
 variable "vpc_id" {
   type    = string
-  default = "vpc-0035b026d6a897b5b"
+  default = "vpc-044c185438541446b"
 }
